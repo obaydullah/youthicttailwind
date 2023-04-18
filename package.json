@@ -1,0 +1,14 @@
+{
+  "name": "youthict",
+  "version": "1.0.0",
+  "description": "this is a learning management websiste. from here students can do online class and offline class as well",
+  "main": "index.js",
+  "scripts": {
+    "watch:index": "npx tailwindcss -i ./src/css/index.css -o ./dist/css/index.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}
